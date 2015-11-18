@@ -1,0 +1,8 @@
+﻿Install-Package Microsoft.Owin.Host.SystemWeb
+Install-Package Microsoft.Owin.Security.OAuth
+Install-Package Microsoft.AspNet.WebApi
+Unity
+Unity.Interception
+log4net
+Install-Package Microsoft.Owin.Cors
+//Install-Package Microsoft ASP.NET Web API 2 Cross-Origin Support
