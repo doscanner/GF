@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.Infrastructure.Cache", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.Infrastructure.Log", "GF.Infrastructure.Log\GF.Infrastructure.Log.csproj", "{D19D13CA-727F-4710-8454-935483E4A2F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.Presentation.StaticFile", "GF.Presentation.StaticFile\GF.Presentation.StaticFile.csproj", "{D105C7A4-9A7F-46AC-A766-47059FE71C95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{D19D13CA-727F-4710-8454-935483E4A2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19D13CA-727F-4710-8454-935483E4A2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19D13CA-727F-4710-8454-935483E4A2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D105C7A4-9A7F-46AC-A766-47059FE71C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D105C7A4-9A7F-46AC-A766-47059FE71C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D105C7A4-9A7F-46AC-A766-47059FE71C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D105C7A4-9A7F-46AC-A766-47059FE71C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +51,6 @@ Global
 		{9E12F842-0491-4CAB-A5A0-94FAC60064A4} = {5224F0FA-4CC0-4C81-8038-2ED5C4C030BD}
 		{119859C7-0DB3-40ED-812A-B340E5BCB12A} = {7544DFA9-4C80-40B9-8A1F-77221DDAD563}
 		{D19D13CA-727F-4710-8454-935483E4A2F7} = {7544DFA9-4C80-40B9-8A1F-77221DDAD563}
+		{D105C7A4-9A7F-46AC-A766-47059FE71C95} = {88DEC5EC-AE44-437A-91B5-68039BDAB386}
 	EndGlobalSection
 EndGlobal
