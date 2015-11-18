@@ -148,6 +148,10 @@
       <Project>{0e0a215a-350d-474d-92df-1bdfc5a5f520}</Project>
       <Name>GF.Infrastructure.Entity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GF.Infrastructure.Util\GF.Infrastructure.Util.csproj">
+      <Project>{6816d56d-3667-422e-b2db-7efc8332eae4}</Project>
+      <Name>GF.Infrastructure.Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

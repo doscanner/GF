@@ -7,6 +7,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
+using GF.Infrastructure.Config;
+using GF.Infrastructure.Entity;
+using GF.Infrastructure.Util;
+using System.Net.Http;
 
 namespace GF.Presentation.WebAPI.Filter
 {
@@ -25,9 +29,8 @@ namespace GF.Presentation.WebAPI.Filter
             base.HandleUnauthorizedRequest(actionContext);
             if (actionContext.Response.StatusCode == HttpStatusCode.Unauthorized)
             {
-                //var response = CommonGlobal.getInstance().ReturnJson((int)HttpStatusCode.Unauthorized, "用户未认证，请求失败");
-                ////actionContext.Response = actionContext.Request.CreateResponse<HttpResponseMessage>(HttpStatusCode.Unauthorized, response, JsonMediaTypeFormatter.DefaultMediaType);
-                //actionContext.Response = response;
+                var response = Utility.Serialize(new Result() { Code = ResultCode.Unauthorized, Msg = TipResource.Unauthorized });
+                actionContext.Response = new HttpResponseMessage { Content = new StringContent(response, Encoding.UTF8, "application/json") };
             }
         }
 

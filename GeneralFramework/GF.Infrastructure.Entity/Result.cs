@@ -33,6 +33,10 @@ namespace GF.Infrastructure.Entity
         /// <summary>
         /// 成功
         /// </summary>
-        Success = 102
+        Success = 102,
+        /// <summary>
+        /// 未认证
+        /// </summary>
+        Unauthorized = 401
     }
 }

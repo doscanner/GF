@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--提示类-->
+  <tip>
+    <add key="Unauthorized" value="用户未认证，请求失败"/>
+  </tip>
+</root>
