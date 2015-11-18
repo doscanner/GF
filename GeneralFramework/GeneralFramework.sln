@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 WebAPI", "03 WebAPI", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.Infrastructure.Cache", "GF.Infrastructure.Cache\GF.Infrastructure.Cache.csproj", "{119859C7-0DB3-40ED-812A-B340E5BCB12A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.Infrastructure.Log", "GF.Infrastructure.Log\GF.Infrastructure.Log.csproj", "{D19D13CA-727F-4710-8454-935483E4A2F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{119859C7-0DB3-40ED-812A-B340E5BCB12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{119859C7-0DB3-40ED-812A-B340E5BCB12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{119859C7-0DB3-40ED-812A-B340E5BCB12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19D13CA-727F-4710-8454-935483E4A2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19D13CA-727F-4710-8454-935483E4A2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19D13CA-727F-4710-8454-935483E4A2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19D13CA-727F-4710-8454-935483E4A2F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +44,6 @@ Global
 		{D839344E-8F1E-42FC-B009-9533D8DA981F} = {5224F0FA-4CC0-4C81-8038-2ED5C4C030BD}
 		{9E12F842-0491-4CAB-A5A0-94FAC60064A4} = {5224F0FA-4CC0-4C81-8038-2ED5C4C030BD}
 		{119859C7-0DB3-40ED-812A-B340E5BCB12A} = {7544DFA9-4C80-40B9-8A1F-77221DDAD563}
+		{D19D13CA-727F-4710-8454-935483E4A2F7} = {7544DFA9-4C80-40B9-8A1F-77221DDAD563}
 	EndGlobalSection
 EndGlobal
