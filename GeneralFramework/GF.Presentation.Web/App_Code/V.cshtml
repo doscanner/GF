@@ -1,0 +1,41 @@
+﻿@helper static_version()
+{
+    string s = System.Configuration.ConfigurationManager.AppSettings["static_version"];
+    @s;   
+}
+@helper static_versionsuffix()
+{
+    string s = System.Configuration.ConfigurationManager.AppSettings["static_versionsuffix"];
+    s = s + static_version(); 
+    @s;   
+}
+@helper static_baseurl()
+{
+    string s = System.Configuration.ConfigurationManager.AppSettings["static_baseurl"];
+    @s;   
+}
+@helper static_images()
+{
+    string s = System.Configuration.ConfigurationManager.AppSettings["static_images"];
+    @s;   
+}
+@helper static_js()
+{
+    string s = System.Configuration.ConfigurationManager.AppSettings["static_js"];
+    @s;   
+}
+@helper static_css()
+{
+    string s = System.Configuration.ConfigurationManager.AppSettings["static_css"];
+    @s;   
+}
+@helper include_css(string cssfilename)
+{
+    string s = static_css() + cssfilename + static_versionsuffix();
+    @s;   
+}
+@helper include_js(string jsfilename)
+{
+    string s = static_js() + jsfilename + static_versionsuffix();
+    @s;   
+}
