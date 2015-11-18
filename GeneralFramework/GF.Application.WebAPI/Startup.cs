@@ -18,9 +18,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(GF.Presentation.WebAPI.Startup))]
+[assembly: OwinStartup(typeof(GF.Application.WebAPI.Startup))]
 
-namespace GF.Presentation.WebAPI
+namespace GF.Application.WebAPI
 {
     public partial class Startup
     {

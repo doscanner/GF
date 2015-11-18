@@ -4,7 +4,7 @@ using System.Collections.Concurrent;
 using System.Threading.Tasks;
 using Microsoft.Owin.Security;
 
-namespace GF.Presentation.WebAPI.Provider
+namespace GF.Application.WebAPI.Provider
 {
     /// <summary>
     /// 刷新令牌

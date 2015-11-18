@@ -2,11 +2,11 @@
 using Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
-using GF.Presentation.WebAPI.Provider;
+using GF.Application.WebAPI.Provider;
 using Microsoft.Owin.Cors;
 using GF.Infrastructure.Config;
 
-namespace GF.Presentation.WebAPI
+namespace GF.Application.WebAPI
 {
     partial class Startup
     {

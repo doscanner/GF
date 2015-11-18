@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F2207553-107C-47AA-A479-2673D18C4C9E}</ProjectGuid>
+    <ProjectGuid>{3DD88F36-9FC0-4C99-A265-115155A6227D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GF.Presentation.WebAPI</RootNamespace>
-    <AssemblyName>GF.Presentation.WebAPI</AssemblyName>
+    <RootNamespace>GF.Application.WebAPI</RootNamespace>
+    <AssemblyName>GF.Application.WebAPI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -114,6 +114,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Filter\AuthorizeFilter.cs" />
     <Compile Include="Global.asax.cs">
@@ -126,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Compile Include="App_Start\Startup.Auth.cs" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -166,9 +166,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>7562</DevelopmentServerPort>
+          <DevelopmentServerPort>12417</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:7562/</IISUrl>
+          <IISUrl>http://localhost:12417/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

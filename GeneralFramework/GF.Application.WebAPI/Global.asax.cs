@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace GF.Presentation.WebAPI
+namespace GF.Application.WebAPI
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

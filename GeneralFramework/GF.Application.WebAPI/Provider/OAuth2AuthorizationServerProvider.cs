@@ -6,7 +6,7 @@ using Microsoft.Owin.Security;
 using System.Collections.Generic;
 using GF.Infrastructure.Config;
 
-namespace GF.Presentation.WebAPI.Provider
+namespace GF.Application.WebAPI.Provider
 {
     /// <summary>
     /// 应用程序提供和 OAuth 认证中间件交互的 IOAuthAuthorizationServerProvider 实例

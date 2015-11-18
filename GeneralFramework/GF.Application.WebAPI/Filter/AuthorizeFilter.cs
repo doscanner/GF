@@ -12,7 +12,7 @@ using GF.Infrastructure.Entity;
 using GF.Infrastructure.Util;
 using System.Net.Http;
 
-namespace GF.Presentation.WebAPI.Filter
+namespace GF.Application.WebAPI.Filter
 {
     /// <summary>
     /// 身份、权限验证

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过下列特性集
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("GF.Presentation.WebAPI")]
+[assembly: AssemblyTitle("GF.Application.FileAPI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("GF.Presentation.WebAPI")]
+[assembly: AssemblyProduct("GF.Application.FileAPI")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于 typelib 的 ID
-[assembly: Guid("f2207553-107c-47aa-a479-2673d18c4c9e")]
+[assembly: Guid("7227c107-9293-41e3-abba-3f3a117c226d")]
 
 // 程序集的版本信息由下列四个值组成:
 //
