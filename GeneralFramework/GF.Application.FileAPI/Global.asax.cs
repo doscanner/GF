@@ -12,6 +12,12 @@ namespace GF.Application.FileAPI
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+
+            Qiniu.Conf.Config.Init();
+        }
+        protected void Application_Error(object sender, EventArgs e)
+        {
+            Exception ex = HttpContext.Current.Server.GetLastError();
         }
     }
 }

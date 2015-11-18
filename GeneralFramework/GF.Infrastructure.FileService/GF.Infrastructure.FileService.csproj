@@ -49,10 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qiniu\QiniuSDK.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Qiniu\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="InstallPackage.txt" />
   </ItemGroup>
